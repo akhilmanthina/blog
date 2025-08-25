@@ -27,7 +27,3 @@ Here's the plan:
 5. **Commit the site** to Github and setup CI/CD- changes pushed should reflect in the live site
 
 So, here begins my project- a little window into my head. Soon to be served by a quartet of silicon desserts in an attic. Source code stored publicly on Microsoft's servers (which already knew everything about me anyway). I'll be updating this page periodically as the infrastructure for this site evolves, but that's it for now.
-
-## Progress
-
-Step 1 obviously took longer than expected, as I brilliantly decided to not [RTFM](https://en.wikipedia.org/wiki/RTFM) for Zola, overcomplicating the process and bashing my head at compilation errors. Choosing a template was also a trickier undertaking than I had expected, as Zola is a less popular SSG compared to tools such as Jekyll or Hugo, there were fewer options in general. Eventually, I found [Duckling](https://duckling.aparoksha.dev) which itself was a more minimalist fork fo
