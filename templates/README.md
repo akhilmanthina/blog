@@ -1,0 +1,1 @@
+exists just to keep templates/ in git
