@@ -40,19 +40,28 @@ nav a {
     font-size: large;
 }
 
+#home a {
+    color: var(--fg-muted-4);
+    font-weight: normal;
+}
+
+/*
+modify background colors
+*/
+body,
+html {
+    background-color: #faf9f5 !important; /* Light mode */
+}
+
 [data-theme="dark"] body,
 [data-theme="dark"] html {
-    background-color: #1f1e1b !important; /* Dark mode */
+    background-color: #1e1e1e !important; /* Dark mode */
 }
 
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) body,
     :root:not([data-theme="light"]) html {
-        background-color: #1f1e1b !important; /* Dark mode */
+        background-color: #1e1e1e !important; /* Dark mode */
     }
 }
 
-#home a {
-    color: var(--fg-muted-4);
-    font-weight: normal;
-}
