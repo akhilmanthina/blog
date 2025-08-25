@@ -1,5 +1,5 @@
 title = "Home"
-base_url = "/"
+base_url = "127.0.0.1"
 description = "my blog"
 theme = "duckling"
 author = "Akhil"
